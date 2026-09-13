@@ -32,3 +32,24 @@
   font-weight: 400;
   src: url("./fonts/roboto-slab-400-regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/RobotoMono-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: bold;
+  font-weight: 900;
+  src: url("./fonts/RobotoMono-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: medium;
+  font-weight: 400;
+  src: url("./fonts/RobotoMono-Medium.ttf") format("ttf");
+}

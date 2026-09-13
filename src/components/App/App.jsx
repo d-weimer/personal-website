@@ -6,9 +6,11 @@ import Footer from "../Footer/Footer";
 function App() {
   return (
     <>
-      <section>
-        <SideBar />
-        <Main />
+      <section className="app">
+        <div className="app__containter">
+          <SideBar />
+          <Main />
+        </div>
         <Footer />
       </section>
     </>
