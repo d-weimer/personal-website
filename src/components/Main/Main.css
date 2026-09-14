@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 128px;
+}
+
+.main__content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

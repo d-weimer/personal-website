@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: left;
+}
+
+.navigation__links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 192px;
+  gap: 2px;
+}
+
+.navigation__link {
+  display: flex;
+  align-items: center;
+  height: 128px;
+  cursor: pointer;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #141414;
+  text-decoration: none;
+}

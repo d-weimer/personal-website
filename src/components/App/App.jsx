@@ -1,15 +1,19 @@
 import "./App.css";
-import Header from "../Header/Header";
+import SideBar from "../SideBar/SideBar";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 
 function App() {
   return (
     <>
-      <section>
-        <Header />
-        <Main />
-        <Footer />
+      <section className="app">
+        <div className="app__content">
+          <div className="app__container">
+            <SideBar />
+            <Main />
+          </div>
+          <Footer />
+        </div>
       </section>
     </>
   );

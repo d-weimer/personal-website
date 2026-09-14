@@ -1,7 +1,7 @@
 import "./SEProjects.css";
 
 function SEProjects() {
-  return <section></section>;
+  return <section className="software">Software</section>;
 }
 
 export default SEProjects;
