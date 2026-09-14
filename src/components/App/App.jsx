@@ -7,11 +7,13 @@ function App() {
   return (
     <>
       <section className="app">
-        <div className="app__containter">
-          <SideBar />
-          <Main />
+        <div className="app__content">
+          <div className="app__container">
+            <SideBar />
+            <Main />
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </section>
     </>
   );

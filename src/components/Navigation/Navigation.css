@@ -7,11 +7,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 128px;
-  gap: 64px;
+  width: 172px;
+  gap: 2px;
 }
 
 .navigation__link {
+  display: flex;
+  align-items: center;
+  height: 128px;
   cursor: pointer;
   font-family: "Roboto Mono", sans-serif;
   font-size: 18px;

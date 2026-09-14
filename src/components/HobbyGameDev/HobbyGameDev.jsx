@@ -1,7 +1,7 @@
 import "./HobbyGameDev.css";
 
 function HobbyGameDev() {
-  return <section></section>;
+  return <section className="games">Games</section>;
 }
 
 export default HobbyGameDev;

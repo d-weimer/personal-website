@@ -1,7 +1,7 @@
 import "./WorkHistory.css";
 
 function WorkHistory() {
-  return <section></section>;
+  return <section>Timeline</section>;
 }
 
 export default WorkHistory;

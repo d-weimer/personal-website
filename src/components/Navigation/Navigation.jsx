@@ -7,7 +7,7 @@ function Navigation() {
     <section className="navigation">
       <div className="navigation__links">
         <NavLink to="/" className="navigation__link">
-          Home
+          About
         </NavLink>
         <NavLink to="/work-history" className="navigation__link">
           Timeline
