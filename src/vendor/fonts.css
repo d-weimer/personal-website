@@ -6,50 +6,22 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/roboto-400-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/roboto-500.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/roboto-900.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto Slab";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/roboto-slab-400-regular.woff") format("woff");
+  src: url("./fonts/RobotoMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Roboto Mono";
   font-style: normal;
   font-weight: 500;
-  src: url("./fonts/RobotoMono-Regular.ttf") format("ttf");
+  src: url("./fonts/RobotoMono-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Roboto Mono";
-  font-style: bold;
+  font-style: normal;
   font-weight: 900;
-  src: url("./fonts/RobotoMono-Bold.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Roboto Mono";
-  font-style: medium;
-  font-weight: 400;
-  src: url("./fonts/RobotoMono-Medium.ttf") format("ttf");
+  src: url("./fonts/RobotoMono-Bold.ttf") format("truetype");
 }
