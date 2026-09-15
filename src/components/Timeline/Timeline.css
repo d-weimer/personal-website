@@ -1,0 +1,23 @@
+.timeline {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #141414;
+}
+
+.timeline__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 48px;
+  cursor: pointer;
+  color: #141414;
+  text-decoration: none;
+}
