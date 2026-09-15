@@ -1,7 +1,58 @@
 .work-history {
+  display: flex;
+  flex-direction: row;
+  position: relative;
   font-family: "Inter", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   color: #141414;
+}
+.work-history__timeline {
+  position: relative;
+  left: 15px;
+  z-index: -1;
+}
+
+.work-history__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.work-history__card {
+  display: flex;
+  align-items: center;
+  height: 115px;
+  gap: 64px;
+  z-index: 0;
+}
+
+.work-history__bullet {
+  font-size: 48px;
+}
+
+.work-history__bullet--study {
+  color: #479f57;
+}
+
+.work-history__bullet--hobby {
+  color: #cf4f2f;
+}
+
+.work-history__bullet--work {
+  color: #6f97c7;
+}
+
+.work-history__role {
+  margin: 0 0 8px;
+}
+
+.work-history__description {
+  margin: 8px 0;
+}
+
+.work-history__project {
+  margin: 8px 0 0;
 }
