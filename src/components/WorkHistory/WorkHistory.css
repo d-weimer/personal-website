@@ -24,7 +24,7 @@
 .work-history__card {
   display: flex;
   align-items: center;
-  height: 115px;
+  height: 128px;
   gap: 64px;
   z-index: 0;
 }
@@ -43,6 +43,17 @@
 
 .work-history__bullet--work {
   color: #6f97c7;
+}
+
+.work-history__card-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.work-history__thumbnail {
+  max-width: 96px;
+  height: 128px;
 }
 
 .work-history__role {
