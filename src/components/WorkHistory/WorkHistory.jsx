@@ -17,19 +17,17 @@ function WorkHistory() {
         {activeYearData &&
           activeYearData.event.map((event, index) => (
             <div key={index} className="work-history__card">
+              {/*
               <span className={`bullet bullet--${event.type}`}>
                 {event.type}
               </span>
+              */}
 
-              {event.role && (
-                <h3 className="work-history__role">{event.role}</h3>
-              )}
-
-              {event.project && (
-                <h4 className="work-history__project">{event.project}</h4>
-              )}
-
+              {event.role && <p className="work-history__role">{event.role}</p>}
               <p className="work-history__description">{event.description}</p>
+              {event.project && (
+                <p className="work-history__project">{event.project}</p>
+              )}
             </div>
           ))}
       </div>
