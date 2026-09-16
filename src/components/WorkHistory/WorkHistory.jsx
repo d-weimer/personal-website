@@ -28,27 +28,29 @@ function WorkHistory() {
                 &bull;
               </span>
               <div className="work-history__card-content">
-                {event.thumbnail &&
-                  (event.link ? (
-                    <a
-                      href={event.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="work-history__thumbnail-link"
-                    >
+                <div className="work-history__thumbnail-container">
+                  {event.thumbnail &&
+                    (event.link ? (
+                      <a
+                        href={event.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="work-history__thumbnail-link"
+                      >
+                        <img
+                          src={event.thumbnail}
+                          alt={event.project}
+                          className="work-history__thumbnail"
+                        />
+                      </a>
+                    ) : (
                       <img
                         src={event.thumbnail}
                         alt={event.project}
                         className="work-history__thumbnail"
                       />
-                    </a>
-                  ) : (
-                    <img
-                      src={event.thumbnail}
-                      alt={event.project}
-                      className="work-history__thumbnail"
-                    />
-                  ))}
+                    ))}
+                </div>
                 <div className="work-history__content-text">
                   {event.role && (
                     <p className="work-history__role">{event.role}</p>

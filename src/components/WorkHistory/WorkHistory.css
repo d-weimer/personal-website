@@ -11,7 +11,7 @@
 .work-history__timeline {
   position: relative;
   left: 15px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .work-history__content {
@@ -26,7 +26,7 @@
   align-items: center;
   height: 128px;
   gap: 64px;
-  z-index: 0;
+  z-index: 2;
 }
 
 .work-history__bullet {
@@ -51,9 +51,16 @@
   gap: 32px;
 }
 
+.work-history__thumbnail-container {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+}
+
 .work-history__thumbnail {
-  max-width: 96px;
-  height: 128px;
+  display: flex;
+  max-width: 160px;
+  max-height: 128px;
 }
 
 .work-history__role {
