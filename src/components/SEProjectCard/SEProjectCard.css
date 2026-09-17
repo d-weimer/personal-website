@@ -1,7 +1,6 @@
 .software-card {
   display: flex;
-  width: 384px;
-  height: 162px;
+  min-height: 180px;
   border: 1px solid #141414;
   font-family: "Inter", serif;
   font-size: 16px;
@@ -9,23 +8,43 @@
   line-height: 32px;
   color: #141414;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .software-card__container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 16px;
   gap: 16px;
+  box-sizing: border-box;
 }
 
 .software-card__thumbnail-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 96px;
-  padding-left: 16px;
+  flex-shrink: 0;
 }
 
 .software-card__thumbnail {
   max-width: 96px;
   max-height: 96px;
+  object-fit: contain;
+}
+
+.software-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.software-card__title {
+  margin: 0 0 8px;
+}
+
+.software-card__description {
+  margin: 0;
 }

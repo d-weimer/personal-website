@@ -13,8 +13,22 @@ function Main() {
     <section className="main">
       <div className="main__content">
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/work-history" element={<Timeline />} />
+          <Route
+            path="/"
+            element={
+              <div className="about-page">
+                <About />
+              </div>
+            }
+          />
+          <Route
+            path="/work-history"
+            element={
+              <div className="timeline-page">
+                <Timeline />
+              </div>
+            }
+          />
           <Route
             path="/work-history/:year"
             element={
@@ -24,9 +38,30 @@ function Main() {
               </div>
             }
           />
-          <Route path="/software-development" element={<SEProjects />} />
-          <Route path="/hobby-games" element={<HobbyGameDev />} />
-          <Route path="/contact-me" element={<ContactMe />} />
+          <Route
+            path="/software-development"
+            element={
+              <div className="software-projects-page">
+                <SEProjects />
+              </div>
+            }
+          />
+          <Route
+            path="/hobby-games"
+            element={
+              <div className="game-development-page">
+                <HobbyGameDev />
+              </div>
+            }
+          />
+          <Route
+            path="/contact-me"
+            element={
+              <div className="contact-me-page">
+                <ContactMe />
+              </div>
+            }
+          />
         </Routes>
       </div>
     </section>

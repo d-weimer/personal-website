@@ -53,4 +53,13 @@ export const SOFTWARE_PROJECT_DATA = [
     media: [{ type: "", path: "" }],
     link: "",
   },
+  {
+    projectId: "007",
+    title: "The Nugget App",
+    thumbnail: "",
+    shortDescription: "The Nugget App",
+    fullDescription: "",
+    media: [{ type: "", path: "" }],
+    link: "",
+  },
 ];
