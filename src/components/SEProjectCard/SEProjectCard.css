@@ -1,6 +1,7 @@
 .software-card {
   display: flex;
-  min-height: 180px;
+  max-width: 432px;
+  min-height: 192px;
   border: 1px solid #141414;
   font-family: "Inter", serif;
   font-size: 16px;
@@ -43,6 +44,8 @@
 
 .software-card__title {
   margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .software-card__description {

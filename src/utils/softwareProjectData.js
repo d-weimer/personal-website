@@ -1,7 +1,7 @@
 export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "001",
-    title: "Triple Peaks Library website",
+    title: "Triple Peaks Library",
     thumbnail: "/projects/triple-peaks-library-logo.png",
     shortDescription: "Triple Peaks Library website",
     fullDescription: "",
@@ -10,7 +10,7 @@ export const SOFTWARE_PROJECT_DATA = [
   },
   {
     projectId: "002",
-    title: "Triple Peaks Cafe website",
+    title: "Triple Peaks Cafe",
     thumbnail: "/projects/triple-peaks-cafe-logo.png",
     shortDescription: "Triple Peaks Cafe website",
     fullDescription: "",
@@ -21,7 +21,7 @@ export const SOFTWARE_PROJECT_DATA = [
     projectId: "003",
     title: "Spots",
     thumbnail: "/projects/spots-logo.png",
-    shortDescription: "Spots",
+    shortDescription: "Spots Social Media app",
     fullDescription: "",
     media: [{ type: "", path: "" }],
     link: "https://d-weimer.github.io/se_project_spots/",
@@ -30,7 +30,7 @@ export const SOFTWARE_PROJECT_DATA = [
     projectId: "004",
     title: "WTWR (What To Wear?)",
     thumbnail: "/projects/wtwr-logo.png",
-    shortDescription: "WTWR (What To Wear?)",
+    shortDescription: "WTWR (What To Wear?) Weather app",
     fullDescription: "",
     media: [{ type: "", path: "" }],
     link: "https://djw-wtwr.jumpingcrab.com/",
@@ -39,7 +39,7 @@ export const SOFTWARE_PROJECT_DATA = [
     projectId: "005",
     title: "News Explorer",
     thumbnail: "/projects/news-explorer-logo.png",
-    shortDescription: "News Explorer",
+    shortDescription: "News Explorer app",
     fullDescription: "",
     media: [{ type: "", path: "" }],
     link: "https://djw-newsexplorer.jumpingcrab.com/",
@@ -51,6 +51,6 @@ export const SOFTWARE_PROJECT_DATA = [
     shortDescription: "The Nugget App",
     fullDescription: "",
     media: [{ type: "", path: "" }],
-    link: "",
+    link: "https://www.linkedin.com/in/daniel-weimer/overlay/Position/3007284270/treasury/?profileId=ACoAAAyP3pgBiPoYh2P53hY6ITRaVku-ijg3PWw",
   },
 ];

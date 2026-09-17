@@ -12,7 +12,7 @@ function SEProjectCard({ project, onCardClick }) {
           />
         </div>
         <div className="software-card__content">
-          <h3 className="software-card__title">{project.title}</h3>
+          <p className="software-card__title">{project.title}</p>
           <p className="software-card__description">
             {project.shortDescription}
           </p>
