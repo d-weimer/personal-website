@@ -46,72 +46,58 @@ function SEProjectPanel({ project, onClose }) {
         </button>
 
         <div className="software-panel__container">
-          <div className="software-panel__text-container">
-            <h3 className="software-panel__title">{project.title}</h3>
-            <p className="software-panel__description">
-              {project.fullDescription || project.shortDescription}
-            </p>
-            {project.link && (
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-                className="software-panel__link"
-              >
-                View Live Project
-              </a>
-            )}
-          </div>
-
           {mediaList.length > 0 && currentMedia?.path && (
             <div className="software-panel__slideshow">
               <div className="software-panel__slide">
                 <span className="software-panel__slide-counter">
                   {currentIndex + 1} / {mediaList.length}
                 </span>
+
                 <img
                   src={currentMedia.path}
                   alt={currentMedia.caption || project.title}
                   className="software-panel__slide-image"
                 />
-                {currentMedia.caption && (
-                  <p className="software-panel__slide-caption">
-                    {currentMedia.caption}
-                  </p>
+
+                {mediaList.length > 1 && (
+                  <>
+                    <button
+                      type="button"
+                      className="software-panel__nav-btn software-panel__nav-btn--prev"
+                      onClick={handlePrev}
+                    >
+                      &#10094;
+                    </button>
+
+                    <button
+                      type="button"
+                      className="software-panel__nav-btn software-panel__nav-btn--next"
+                      onClick={handleNext}
+                    >
+                      &#10095;
+                    </button>
+
+                    <div className="software-panel__dots">
+                      {mediaList.map((_, idx) => (
+                        <span
+                          key={idx}
+                          className={`software-panel__dot ${
+                            currentIndex === idx
+                              ? "software-panel__dot--active"
+                              : ""
+                          }`}
+                          onClick={() => setCurrentIndex(idx)}
+                        />
+                      ))}
+                    </div>
+                  </>
                 )}
               </div>
 
-              {mediaList.length > 1 && (
-                <>
-                  <button
-                    type="button"
-                    className="software-panel__nav-btn software-panel__nav-btn--prev"
-                    onClick={handlePrev}
-                  >
-                    &#10094;
-                  </button>
-                  <button
-                    type="button"
-                    className="software-panel__nav-btn software-panel__nav-btn--next"
-                    onClick={handleNext}
-                  >
-                    &#10095;
-                  </button>
-
-                  <div className="software-panel__dots">
-                    {mediaList.map((_, idx) => (
-                      <span
-                        key={idx}
-                        className={`software-panel__dot ${
-                          currentIndex === idx
-                            ? "software-panel__dot--active"
-                            : ""
-                        }`}
-                        onClick={() => setCurrentIndex(idx)}
-                      />
-                    ))}
-                  </div>
-                </>
+              {currentMedia.caption && (
+                <p className="software-panel__slide-caption">
+                  {currentMedia.caption}
+                </p>
               )}
             </div>
           )}
