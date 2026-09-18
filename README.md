@@ -1,20 +1,29 @@
-# Personal Website
+# Personal Portfolio Website
 
-Website showcasing my work history, projects, and contact information
+A responsive single-page web application showcasing my background, interactive work history timeline, software engineering projects, and contact details. Built with React, Vite, and React Router.
 
-# React + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Persistent Sidebar Navigation**: Fast, client-side routing using React Router without full page reloads.
+- **Interactive Timeline & Work History**: Browse career milestones and project releases by year, complete with active year highlighting, thumbnail previews, and external project links.
+- **Categorized Color-Coding**: Visual badges identifying different event types (e.g., study, work, hobbies).
+- **Interactive Software Showcase**: Interactive grid of software projects featuring direct live demo links and pop-up slide panels with custom image carousels.
+- **Smart Card Interactivity**: Cards with slideshow media open detailed image viewers on click, while media-less projects remain clean and non-interactive with direct links.
+- **Clean Responsive Layout**: Dual-panel design separating static navigation from dynamic content views.
 
-Currently, two official plugins are available:
+## Component Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **`Navigation`**: Persistent sidebar with active-link indicators for seamless page navigation.
+- **`About`**: Developer intro summary, background highlights, and core skills breakdown.
+- **`Timeline`**: Vertical year selector featuring dynamic route-matching indicators.
+- **`WorkHistory`**: Dynamic view rendering detailed event cards, thumbnail media, descriptions, and color-coded badges based on the selected year parameter.
+- **`SEProjects`**: Interactive project gallery rendering software development project cards.
+- **`SEProjectCard`**: Individual project card with thumbnail preview, title, description, live links, and conditional modal triggers based on media availability.
+- **`SEProjectPanel`**: Detailed overlay modal featuring an interactive image slideshow, counter, and keyboard/backdrop navigation controls.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18, HTML5, CSS3
+- **Build Tooling**: Vite
+- **Routing**: React Router DOM (`v6+`)
+- **Icons**: React Icons / Custom SVG assets
