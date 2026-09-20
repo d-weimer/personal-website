@@ -1,0 +1,36 @@
+.game-navigation {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.game-navigation__btn {
+  background: transparent;
+  border: 1px solid #141414;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.game-navigation__btn:hover {
+  background-color: #f0f0f0;
+}
+
+.game-navigation__btn--active {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.game-navigation__btn--active:hover {
+  background-color: #333333;
+}

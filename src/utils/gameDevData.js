@@ -2,6 +2,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "001",
     type: "study",
+    featured: false,
     title: "Tramponline Trample",
     description: "",
     thumbnail: "/games/thumbnails/trampoline-trample.png",
@@ -10,6 +11,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "002",
     type: "study",
+    featured: false,
     title: "Virtual Pet V1",
     description: "",
     thumbnail: "/thumbnails/virtual-pet-v1.png",
@@ -18,6 +20,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "003",
     type: "card",
+    featured: true,
     title: "Savage Wars",
     description: "",
     thumbnail: "/games/thumbnails/savage-wars.png",
@@ -26,6 +29,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "004",
     type: "study",
+    featured: false,
     title: "Virtual Pet V2",
     description: "",
     thumbnail: "/thumbnails/virtual-pet-v2.png",
@@ -34,6 +38,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "005",
     type: "card",
+    featured: false,
     title: "Raido: Road to Ragnarok",
     description: "",
     thumbnail: "/games/thumbnails/raido.png",
@@ -42,6 +47,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "006",
     type: "prototype",
+    featured: false,
     title: "Drop",
     description: "",
     thumbnail: "/games/thumbnails/drop.png",
@@ -50,6 +56,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "007",
     type: "prototype",
+    featured: false,
     title: "Real-Time Strategy",
     description: "",
     thumbnail: "/thumbnails/rts.png",
@@ -58,6 +65,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "008",
     type: "work",
+    featured: false,
     title: "Lady Blur: Mission to Mars",
     description: "",
     thumbnail: "/thumbnails/mission-to-mars.png",
@@ -66,6 +74,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "009",
     type: "work",
+    featured: false,
     title: "Lady Blur: Defend the Gates",
     description: "",
     thumbnail: "/thumbnails/defend-the-gates.png",
@@ -74,6 +83,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "010",
     type: "prototype",
+    featured: true,
     title: "City Destroyer",
     description: "",
     thumbnail: "/games/thumbnails/city-destroyer.png",
@@ -82,6 +92,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "011",
     type: "study",
+    featured: true,
     title: "Where Are We... Chapter 0",
     description: "",
     thumbnail: "/games/thumbnails/where-are-we.png",
@@ -90,6 +101,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "012",
     type: "prototype",
+    featured: true,
     title: "Dino RPG Test",
     description: "Password: rawr",
     thumbnail: "/games/thumbnails/dino-test.png",
@@ -98,6 +110,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "013",
     type: "study",
+    featured: false,
     title: "Action RPG Demo",
     description: "",
     thumbnail: "/thumbnails/arpg.png",
@@ -106,6 +119,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "014",
     type: "prototype",
+    featured: true,
     title: "Asteroid Engine",
     description: "",
     thumbnail: "/games/thumbnails/asteroid-engine.png",
@@ -114,6 +128,7 @@ export const GAME_DEVELOPMENT_DATA = [
   {
     gameId: "015",
     type: "card",
+    featured: true,
     title: "Scoundrel",
     description: "",
     thumbnail: "/games/thumbnails/scoundrel.png",
