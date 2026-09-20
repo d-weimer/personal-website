@@ -1,4 +1,4 @@
-[
+export const WORK_HISTORY_DATA = [
   {
     yearId: "2014",
     event: [
@@ -25,7 +25,7 @@
         description: "Designed and released card game Savage Wars",
         project: "Savage Wars",
         thumbnail: "/thumbnails/savage-wars-1.png",
-        link: "https://dweimer19.wixsite.com/danielweimer/single-post/2014/09/15/savage-wars-and-version-11",
+        link: "",
       },
     ],
   },
