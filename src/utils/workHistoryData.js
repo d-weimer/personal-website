@@ -1,4 +1,4 @@
-export const WORK_HISTORY_DATA = [
+[
   {
     yearId: "2014",
     event: [
@@ -25,7 +25,7 @@ export const WORK_HISTORY_DATA = [
         description: "Designed and released card game Savage Wars",
         project: "Savage Wars",
         thumbnail: "/thumbnails/savage-wars-1.png",
-        link: "",
+        link: "https://dweimer19.wixsite.com/danielweimer/single-post/2014/09/15/savage-wars-and-version-11",
       },
     ],
   },
@@ -291,7 +291,7 @@ export const WORK_HISTORY_DATA = [
         type: "work",
         role: "Quality Assurance Analyst, Pocket Worlds",
         description: "Joined Pocket Worlds as a quality assurance analyst",
-        project: "Highrise: Dress Up Avatar Chat (Android/iOS",
+        project: "Highrise: Dress Up Avatar Chat (Android/iOS)",
         thumbnail: "/thumbnails/pocket-worlds.png",
         link: "https://www.linkedin.com/in/daniel-weimer/",
       },

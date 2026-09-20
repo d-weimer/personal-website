@@ -28,9 +28,7 @@ function SEProjectCard({ project, onCardClick }) {
         </div>
         <div className="software-card__content">
           <p className="software-card__title">{project.title}</p>
-          <p className="software-card__description">
-            {project.shortDescription}
-          </p>
+          <p className="software-card__description">{project.description}</p>
           {project.link && (
             <a
               href={project.link}
