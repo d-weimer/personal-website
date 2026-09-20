@@ -15,7 +15,7 @@ function Navigation() {
         <NavLink to="/software-development" className="navigation__link">
           Software
         </NavLink>
-        <NavLink to="/hobby-games" className="navigation__link">
+        <NavLink to="/game-development" className="navigation__link">
           Games
         </NavLink>
         <NavLink to="/contact-me" className="navigation__link">
