@@ -2,29 +2,50 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
   font-family: "Inter", serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 32px;
-}
-
-.contact__name {
-}
-
-.contact__email {
-}
-
-.contact__message {
+  color: #141414;
 }
 
 .contact__label {
+  padding-left: 17px;
   margin: 0;
 }
 
-.contact__input .contact__input-message {
+.contact__input,
+.contact__input-message {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border: 1px solid #141414;
+  border-radius: 4px;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contact__input-message {
+  height: 250px;
+}
+
+.contact__button-container {
+  display: flex;
+  justify-content: center;
 }
 
 .contact__button {
-  max-width: 160px;
+  width: 160px;
+  height: 40px;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #141414;
+  border: 1px solid #141414;
+  border-radius: 4px;
 }
