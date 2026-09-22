@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./SEProjects.css";
 import SEProjectCard from "../SEProjectCard/SEProjectCard";

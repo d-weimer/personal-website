@@ -5,7 +5,7 @@ import About from "../About/About";
 import Timeline from "../Timeline/Timeline";
 import WorkHistory from "../WorkHistory/WorkHistory";
 import SEProjects from "../SEProjects/SEProjects";
-import HobbyGameDev from "../HobbyGameDev/HobbyGameDev";
+import GameDev from "../GameDev/GameDev";
 import ContactMe from "../ContactMe/ContactMe";
 
 function Main() {
@@ -47,10 +47,10 @@ function Main() {
             }
           />
           <Route
-            path="/hobby-games"
+            path="/game-development"
             element={
               <div className="game-development-page">
-                <HobbyGameDev />
+                <GameDev />
               </div>
             }
           />

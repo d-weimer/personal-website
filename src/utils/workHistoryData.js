@@ -291,7 +291,7 @@ export const WORK_HISTORY_DATA = [
         type: "work",
         role: "Quality Assurance Analyst, Pocket Worlds",
         description: "Joined Pocket Worlds as a quality assurance analyst",
-        project: "Highrise: Dress Up Avatar Chat (Android/iOS",
+        project: "Highrise: Dress Up Avatar Chat (Android/iOS)",
         thumbnail: "/thumbnails/pocket-worlds.png",
         link: "https://www.linkedin.com/in/daniel-weimer/",
       },
