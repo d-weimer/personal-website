@@ -12,7 +12,7 @@ function ContactMe() {
   const [status, setStatus] = useState({
     loading: false,
     success: null,
-    error: ",",
+    error: "",
   });
 
   const handleChange = (e) => {
