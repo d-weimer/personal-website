@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./ContactMe.css";
+import { API_BASE_URL } from "../../utils/constants";
 
 function ContactMe() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ function ContactMe() {
     setStatus({ loading: true, success: null, error: "" });
 
     try {
-      const response = await fetch("http://localhost:3002/api/contact", {
+      const response = await fetch(`${API_BASE_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
