@@ -1,3 +1,4 @@
 .side-bar {
-  padding: 90px 0;
+  padding: 0;
+  z-index: 2;
 }

@@ -10,4 +10,6 @@ body {
 .app__container {
   display: flex;
   width: 100%;
+  max-width: 1440px;
+  padding: 96px 64px;
 }
