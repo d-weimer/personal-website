@@ -5,8 +5,10 @@ A responsive single-page web application showcasing my background, interactive w
 ## Features
 
 - **Folder Tab UI Architecture**: Seamless dual-panel visual aesthetic mimicking physical folder tabs. The active navigation tab dynamically merges into the main content card using pure CSS `z-index` layering, negative margin overlaps, and background matching.
-- **Persistent Sidebar Navigation**: Fast, client-side routing using React Router's dynamic `NavLink` active class evaluations (`getLinkClass`) without full page reloads.
-- **Interactive Timeline & Work History**: Browse career milestones and project releases by year, complete with active year highlighting, thumbnail previews, and external project links.
+- **Persistent Sidebar Navigation & State Preservation**: Dynamic routing powered by React Router's `NavLink`. The `Navigation` component tracks route context via `useRef`, maintaining the active tab state and preserving the user's last-selected timeline year when switching between tabs.
+- **Magnifying Lens Timeline Architecture**: Vertical timeline featuring a dual-layer JS/CSS clipping architecture (`clip-path: inset(...)`). As the active selection box slides smoothly over year items, text inside the box dynamically boldens like a magnifying lens.
+- **Slot Machine Work History Scrolling**: Smooth, vertical reel/slot-machine scrolling transition in the `WorkHistory` container whenever a new year is selected, sliding past content out while bringing the selected year's milestones seamlessly into view.
+- **Work History & Default Routing**: Career milestones default to the current year (`/work-history/2026`) via automatic route redirection (``), rendering detailed event cards, thumbnail previews, external links, and badge categories.
 - **Categorized Color-Coding**: Visual badges identifying different event types (e.g., study, work, hobbies).
 - **Interactive Software Showcase**: Interactive grid of software projects featuring direct live demo links and pop-up slide panels with custom image carousels.
 - **Game Development Gallery & Carousel**: Filterable game showcase categorized by project type (Featured, Prototypes, Studies, Card Games, Professional Work) featuring numerical `gameId` sorting and interactive horizontal carousel controls with dynamic scroll-boundary detection.
@@ -15,10 +17,10 @@ A responsive single-page web application showcasing my background, interactive w
 
 ## Component Structure
 
-- **`Navigation`**: Persistent sidebar with active folder-tab indicators (`getLinkClass`) for seamless page navigation and dynamic z-index layering.
+- **`Navigation`**: Persistent sidebar with active folder-tab indicators (`getLinkClass`), URL pattern matching (`location.pathname`), and year state preservation (`lastYearRef`) across tab switches.
 - **`About`**: Developer intro summary, background highlights, and core skills breakdown.
-- **`Timeline`**: Vertical year selector featuring dynamic route-matching indicators.
-- **`WorkHistory`**: Dynamic view rendering detailed event cards, thumbnail media, descriptions, and color-coded badges based on the selected year parameter.
+- **`Timeline`**: Dual-layer pure JS (`React.createElement`) vertical year selector utilizing synchronous CSS `clip-path` inset clipping and `translateY` transitions for a sliding magnifying font-weight effect.
+- **`WorkHistory`**: Dynamic reel-scrolling container rendering detailed event cards, thumbnail media, descriptions, and color-coded badges, animating smoothly vertically like a slot machine as the active year parameter changes.
 - **`SEProjects`**: Interactive project gallery rendering software development project cards.
 - **`SEProjectCard`**: Individual project card with thumbnail preview, title, description, live links, and conditional modal triggers based on media availability.
 - **`SEProjectPanel`**: Detailed overlay modal featuring an interactive image slideshow, counter, backdrop dismissal, and embedded dots overlay navigation.
