@@ -1,6 +1,7 @@
 .navigation {
   display: flex;
   justify-content: left;
+  z-index: 1;
 }
 
 .navigation__links {
@@ -15,14 +16,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 192px;
-  height: 128px;
+  width: 224px;
+  height: 96px;
   cursor: pointer;
   font-family: "Roboto Mono", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
   color: #141414;
   text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid transparent;
+  border-radius: 8px 0 0 8px;
+}
+
+.navigation__link:hover:not(.navigation__link_active) {
+  background-color: rgba(20, 20, 20, 0.1);
+}
+
+.navigation__link_active {
+  background-color: #ffffff;
+  font-weight: 700;
+  z-index: 3;
 }

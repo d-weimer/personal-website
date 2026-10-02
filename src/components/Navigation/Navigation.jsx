@@ -3,22 +3,25 @@ import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 function Navigation() {
+  const getLinkClass = ({ isActive }) =>
+    `navigation__link ${isActive ? "navigation__link_active" : ""}`;
+
   return (
     <section className="navigation">
       <div className="navigation__links">
-        <NavLink to="/" className="navigation__link">
+        <NavLink to="/" className={getLinkClass}>
           About
         </NavLink>
-        <NavLink to="/work-history" className="navigation__link">
+        <NavLink to="/work-history" className={getLinkClass}>
           Timeline
         </NavLink>
-        <NavLink to="/software-development" className="navigation__link">
+        <NavLink to="/software-development" className={getLinkClass}>
           Software
         </NavLink>
-        <NavLink to="/game-development" className="navigation__link">
+        <NavLink to="/game-development" className={getLinkClass}>
           Games
         </NavLink>
-        <NavLink to="/contact-me" className="navigation__link">
+        <NavLink to="/contact-me" className={getLinkClass}>
           Contact Me
         </NavLink>
       </div>
