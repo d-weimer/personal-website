@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import "./Main.css";
 import About from "../About/About";
@@ -22,12 +22,8 @@ function Main() {
             }
           />
           <Route
-            path="/work-history"
-            element={
-              <div className="timeline-page">
-                <Timeline />
-              </div>
-            }
+            path="/work-history/"
+            element={<Navigate to="/work-history/2026" replace />}
           />
           <Route
             path="/work-history/:year"

@@ -1,7 +1,6 @@
 .timeline {
   font-family: "Inter", serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 32px;
   color: #141414;
 }
@@ -9,6 +8,46 @@
 .timeline__content {
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 128px;
+}
+
+.timeline__layer {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__layer--base {
+  position: relative;
+  z-index: 1;
+}
+
+.timeline__layer--bold {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  font-weight: 700;
+  pointer-events: none;
+  transition: clip-path 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: clip-path;
+}
+
+.timeline__active-box {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 96px;
+  height: 32px;
+  border: 2px solid #141414;
+  border-radius: 12px;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 3;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
 }
 
 .timeline__link {
@@ -20,8 +59,5 @@
   cursor: pointer;
   color: #141414;
   text-decoration: none;
-}
-
-.timeline__link--active {
-  font-weight: 700;
+  font-weight: inherit;
 }
