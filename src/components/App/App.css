@@ -11,5 +11,6 @@ body {
   display: flex;
   width: 100%;
   max-width: 1440px;
-  padding: 80px 64px;
+  height: 80vh;
+  padding: 64px 64px;
 }

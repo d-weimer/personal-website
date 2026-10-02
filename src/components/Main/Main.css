@@ -14,8 +14,15 @@
 }
 
 .about-page,
-.timeline-page,
 .contact-me-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.timeline-page {
   display: flex;
   width: 100%;
   height: 100%;
