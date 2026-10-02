@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 
 import "./Timeline.css";
 
@@ -19,20 +19,51 @@ const years = [
 ];
 
 function Timeline() {
+  const { year } = useParams();
+  const selectedYear = year || "2026";
+
+  const activeIndex = years.indexOf(selectedYear);
+  const selectedIndex = activeIndex >= 0 ? activeIndex : 0;
+  const currentY = selectedIndex * 48;
+
   return (
     <section className="timeline">
       <div className="timeline__content">
-        {years.map((year) => (
-          <NavLink
-            key={year}
-            to={`/work-history/${year}`}
-            className={({ isActive }) =>
-              `timeline__link ${isActive ? "timeline__link--active" : ""}`
-            }
-          >
-            {year}
-          </NavLink>
-        ))}
+        <div className="timeline__layer timeline__layer--base">
+          {years.map((yearItem) => (
+            <NavLink
+              key={yearItem}
+              to={`/work-history/${yearItem}`}
+              className="timeline__link"
+            >
+              {yearItem}
+            </NavLink>
+          ))}
+        </div>
+
+        <div
+          className="timeline__layer timeline__layer--bold"
+          style={{
+            clipPath: `inset(${currentY}px 0px calc(100% - ${currentY + 48}px) 0px)`,
+          }}
+        >
+          {years.map((yearItem) => (
+            <NavLink
+              key={yearItem}
+              to={`/work-history/${yearItem}`}
+              className="timeline__link"
+              tabIndex={-1}
+              aria-hidden="true"
+            >
+              {yearItem}
+            </NavLink>
+          ))}
+        </div>
+
+        <div
+          className="timeline__active-box"
+          style={{ transform: `translateY(${currentY}px)` }}
+        />
       </div>
     </section>
   );

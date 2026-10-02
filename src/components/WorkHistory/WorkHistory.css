@@ -13,6 +13,7 @@
 
 .work-history__timeline {
   position: relative;
+  top: 5px;
   left: 15px;
   z-index: 0;
 }
