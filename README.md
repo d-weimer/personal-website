@@ -4,7 +4,8 @@ A responsive single-page web application showcasing my background, interactive w
 
 ## Features
 
-- **Persistent Sidebar Navigation**: Fast, client-side routing using React Router without full page reloads.
+- **Folder Tab UI Architecture**: Seamless dual-panel visual aesthetic mimicking physical folder tabs. The active navigation tab dynamically merges into the main content card using pure CSS `z-index` layering, negative margin overlaps, and background matching.
+- **Persistent Sidebar Navigation**: Fast, client-side routing using React Router's dynamic `NavLink` active class evaluations (`getLinkClass`) without full page reloads.
 - **Interactive Timeline & Work History**: Browse career milestones and project releases by year, complete with active year highlighting, thumbnail previews, and external project links.
 - **Categorized Color-Coding**: Visual badges identifying different event types (e.g., study, work, hobbies).
 - **Interactive Software Showcase**: Interactive grid of software projects featuring direct live demo links and pop-up slide panels with custom image carousels.
@@ -14,7 +15,7 @@ A responsive single-page web application showcasing my background, interactive w
 
 ## Component Structure
 
-- **`Navigation`**: Persistent sidebar with active-link indicators for seamless page navigation.
+- **`Navigation`**: Persistent sidebar with active folder-tab indicators (`getLinkClass`) for seamless page navigation and dynamic z-index layering.
 - **`About`**: Developer intro summary, background highlights, and core skills breakdown.
 - **`Timeline`**: Vertical year selector featuring dynamic route-matching indicators.
 - **`WorkHistory`**: Dynamic view rendering detailed event cards, thumbnail media, descriptions, and color-coded badges based on the selected year parameter.
@@ -31,3 +32,4 @@ A responsive single-page web application showcasing my background, interactive w
 - **Build Tooling**: Vite
 - **Routing**: React Router DOM (`v6+`)
 - **Icons**: React Icons / Custom SVG assets
+- **Deployment**: GCP Compute Engine, Nginx, Certbot SSL, PM2
