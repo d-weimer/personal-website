@@ -22,7 +22,7 @@ function Main() {
             }
           />
           <Route
-            path="/work-history"
+            path="/work-history/"
             element={
               <div className="timeline-page">
                 <Timeline />
