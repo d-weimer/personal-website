@@ -15,7 +15,7 @@ function About() {
           <p className="about__paragraph">
             Hi, I&apos;m Daniel Weimer! I&apos;m a full-stack software engineer
             with a decade's worth of video game industry experience in Quality
-            Assurace, Product Testing, and project management. <br />
+            Assurance, Product Testing, and technical project management. <br />
             <br />
             As a full-stack software engineer, I build responsive React/Vite
             apps focusing on clean component architecture, interactive media,
