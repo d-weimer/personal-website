@@ -119,7 +119,7 @@ export const SOFTWARE_PROJECT_DATA = [
     title: "WTWR",
     description: "WTWR (What To Wear?) Weather full-stack app",
     thumbnail: "/projects/logos/wtwr-logo.png",
-    link: "https://djw-wtwr.jumpingcrab.com/",
+    link: "/software-development/wtwr/",
     linkText: "View Live Project",
     media: [
       {
@@ -149,7 +149,7 @@ export const SOFTWARE_PROJECT_DATA = [
     title: "News Explorer",
     description: "News Explorer full-stack app",
     thumbnail: "/projects/logos/news-explorer-logo.png",
-    link: "https://djw-newsexplorer.jumpingcrab.com/",
+    link: "/software-development/news-explorer/",
     linkText: "View Live Project",
     media: [
       {

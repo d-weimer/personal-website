@@ -1,16 +1,13 @@
-import { useRef } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 import "./Navigation.css";
 
 function Navigation() {
   const location = useLocation();
-  const lastYearRef = useRef("2026");
 
+  // Derive the year directly from the path during render
   const match = location.pathname.match(/\/work-history\/(\d{4})/);
-  if (match) {
-    lastYearRef.current = match[1];
-  }
+  const lastYear = match ? match[1] : "2026";
 
   const getLinkClass = ({ isActive }) =>
     `navigation__link ${isActive ? "navigation__link_active" : ""}`;
@@ -22,7 +19,7 @@ function Navigation() {
           About
         </NavLink>
         <NavLink
-          to={`/work-history/${lastYearRef.current}`}
+          to={`/work-history/${lastYear}`}
           className={() =>
             `navigation__link ${
               location.pathname.startsWith("/work-history")
