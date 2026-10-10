@@ -56,7 +56,7 @@ export const SOFTWARE_PROJECT_DATA = [
     title: "Spots",
     description: "Spots Social Media app",
     thumbnail: "/projects/logos/spots-logo.png",
-    link: "https://d-weimer.github.io/se_project_spots/",
+    link: "/software-development/spots/index.html",
     linkText: "View Live Project",
     media: [
       {
