@@ -30,7 +30,7 @@ export const SOFTWARE_PROJECT_DATA = [
     title: "Triple Espresso",
     description: "Triple Espresso Coffee Shop website",
     thumbnail: "/projects/logos/triple-peaks-cafe-logo.png",
-    link: "https://codepen.io/Daniel-Weimer/full/JoXrRqX",
+    link: "/software-development/triple-espresso-coffeeshop/index.html",
     linkText: "View Live Project",
     media: [
       {
