@@ -115,7 +115,7 @@ export const SOFTWARE_PROJECT_DATA = [
     ],
   },
   {
-    projectId: "004",
+    projectId: "005",
     title: "WTWR",
     description: "WTWR (What To Wear?) Weather full-stack app",
     thumbnail: "/projects/logos/wtwr-logo.png",
@@ -145,7 +145,7 @@ export const SOFTWARE_PROJECT_DATA = [
     ],
   },
   {
-    projectId: "005",
+    projectId: "006",
     title: "News Explorer",
     description: "News Explorer full-stack app",
     thumbnail: "/projects/logos/news-explorer-logo.png",
@@ -175,7 +175,7 @@ export const SOFTWARE_PROJECT_DATA = [
     ],
   },
   {
-    projectId: "006",
+    projectId: "007",
     title: "The Nugget App",
     description: "Hackathon: The Nugget App",
     thumbnail: "/projects/logos/the-nugget-app-logo.png",
