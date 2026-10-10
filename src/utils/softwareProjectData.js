@@ -4,7 +4,8 @@ export const SOFTWARE_PROJECT_DATA = [
     title: "Triple Peaks Library",
     description: "Triple Peaks Library website",
     thumbnail: "/projects/logos/triple-peaks-library-logo.png",
-    link: "https://codepen.io/Daniel-Weimer/full/WbwvBqp",
+    link: "/software-development/triple-peaks-library/index.html",
+    linkText: "View Live Project",
     media: [
       {
         caption: "Triple Peaks Library",
@@ -30,6 +31,7 @@ export const SOFTWARE_PROJECT_DATA = [
     description: "Triple Espresso Coffee Shop website",
     thumbnail: "/projects/logos/triple-peaks-cafe-logo.png",
     link: "https://codepen.io/Daniel-Weimer/full/JoXrRqX",
+    linkText: "View Live Project",
     media: [
       {
         caption: "Triple Espresso Coffee Shop",
@@ -55,6 +57,7 @@ export const SOFTWARE_PROJECT_DATA = [
     description: "Spots Social Media app",
     thumbnail: "/projects/logos/spots-logo.png",
     link: "https://d-weimer.github.io/se_project_spots/",
+    linkText: "View Live Project",
     media: [
       {
         caption: "Spots",
@@ -80,6 +83,7 @@ export const SOFTWARE_PROJECT_DATA = [
     description: "WTWR (What To Wear?) Weather full-stack app",
     thumbnail: "/projects/logos/wtwr-logo.png",
     link: "https://djw-wtwr.jumpingcrab.com/",
+    linkText: "View Live Project",
     media: [
       {
         caption: "WTWR",
@@ -105,6 +109,7 @@ export const SOFTWARE_PROJECT_DATA = [
     description: "News Explorer full-stack app",
     thumbnail: "/projects/logos/news-explorer-logo.png",
     link: "https://djw-newsexplorer.jumpingcrab.com/",
+    linkText: "View Live Project",
     media: [
       {
         caption: "News Explorer",
@@ -130,6 +135,7 @@ export const SOFTWARE_PROJECT_DATA = [
     description: "Hackathon: The Nugget App",
     thumbnail: "/projects/logos/the-nugget-app-logo.png",
     link: "https://www.linkedin.com/in/daniel-weimer/overlay/Position/3007284270/treasury/?profileId=ACoAAAyP3pgBiPoYh2P53hY6ITRaVku-ijg3PWw",
+    linkText: "View Certificate",
     media: [],
   },
 ];
