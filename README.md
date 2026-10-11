@@ -10,7 +10,8 @@ A responsive single-page web application showcasing my background, interactive w
 - **Slot Machine Work History Scrolling**: Smooth, vertical reel/slot-machine scrolling transition in the `WorkHistory` container whenever a new year is selected, sliding past content out while bringing the selected year's milestones seamlessly into view.
 - **Work History & Default Routing**: Career milestones default to the current year (`/work-history/2026`) via automatic route redirection (``), rendering detailed event cards, thumbnail previews, external links, and badge categories.
 - **Categorized Color-Coding**: Visual badges identifying different event types (e.g., study, work, hobbies).
-- **Interactive Software Showcase**: Interactive grid of software projects featuring direct live demo links and pop-up slide panels with custom image carousels.
+- **Interactive Software Showcase:** Interactive grid of software projects featuring direct live demo links, pop-up slide panels with custom image carousels, and hosted MERN applications.
+- **MERN Subpath Hosting & API Proxy Architecture:** Production hosting of full-stack applications (such as News Explorer) under subpaths (`/software-development/news-explorer/`), backed by dedicated Express APIs, custom backend news proxy endpoints routing to NewsAPI, and PM2 process management.
 - **Game Development Gallery & Carousel**: Filterable game showcase categorized by project type (Featured, Prototypes, Studies, Card Games, Professional Work) featuring numerical `gameId` sorting and interactive horizontal carousel controls with dynamic scroll-boundary detection.
 - **Smart Card Interactivity**: Cards with slideshow media open detailed image viewers on click, while media-less projects remain clean and non-interactive with direct links.
 - **Clean Responsive Layout**: Dual-panel design separating static navigation from dynamic content views.
@@ -31,7 +32,8 @@ A responsive single-page web application showcasing my background, interactive w
 ## Tech Stack
 
 - **Frontend**: React 18, HTML5, CSS3
+- **Backend:** Node.js, Express, MongoDB (Mongoose)
 - **Build Tooling**: Vite
 - **Routing**: React Router DOM (`v6+`)
 - **Icons**: React Icons / Custom SVG assets
-- **Deployment**: GCP Compute Engine, Nginx, Certbot SSL, PM2
+- **Infrastructure & Deployment**: GCP Compute Engine, Nginx, Certbot SSL, PM2

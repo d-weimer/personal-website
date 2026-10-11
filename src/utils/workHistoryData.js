@@ -331,7 +331,7 @@ export const WORK_HISTORY_DATA = [
         role: "Full-stack Software Engineer, TripleTen",
         description:
           "Completed TripleTen's full-stack software engineering bootcamp",
-        project: "Spots, WTWR, News Explorer",
+        project: "Spots, The Simple To-Do App, WTWR, News Explorer",
         thumbnail: "/thumbnails/tripleten.png",
         link: "https://github.com/d-weimer",
       },
