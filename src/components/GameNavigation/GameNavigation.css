@@ -9,7 +9,7 @@
   line-height: 32px;
 }
 
-.game-navigation__btn {
+.game-navigation__button {
   background: transparent;
   border: 1px solid #141414;
   padding: 8px 16px;
@@ -22,15 +22,15 @@
     color 0.2s ease;
 }
 
-.game-navigation__btn:hover {
+.game-navigation__button:hover {
   background-color: #f0f0f0;
 }
 
-.game-navigation__btn--active {
+.game-navigation__button--active {
   background-color: #141414;
   color: #ffffff;
 }
 
-.game-navigation__btn--active:hover {
+.game-navigation__button--active:hover {
   background-color: #333333;
 }
