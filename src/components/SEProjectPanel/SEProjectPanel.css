@@ -82,6 +82,10 @@
   display: block;
 }
 
+.software-panel__slide-image--mobile {
+  object-fit: contain;
+}
+
 .software-panel__slide-caption {
   margin: 8px 0 0 0;
   font-size: 14px;

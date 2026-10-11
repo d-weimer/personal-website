@@ -37,7 +37,7 @@ function SEProjectCard({ project, onCardClick }) {
               className="software-card__link"
               onClick={handleLinkClick}
             >
-              View Live Project
+              {project.linkText || "View Live Project"}
             </a>
           )}
         </div>

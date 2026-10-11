@@ -39,7 +39,7 @@ export const GAME_DEVELOPMENT_DATA = [
     gameId: "005",
     type: "card",
     featured: false,
-    title: "Raido: Road to Ragnarok",
+    title: "Raido: Road to Ragnarök",
     description: "",
     thumbnail: "/games/thumbnails/raido.png",
     link: "https://danielweimer.itch.io/raido-alpha-build",
@@ -82,6 +82,15 @@ export const GAME_DEVELOPMENT_DATA = [
   },
   {
     gameId: "010",
+    type: "work",
+    featured: false,
+    title: "ChainArena",
+    description: "",
+    thumbnail: "/thumbnails/chainarena.png",
+    link: "https://chainarena.en.softonic.com/android",
+  },
+  {
+    gameId: "011",
     type: "prototype",
     featured: true,
     title: "City Destroyer",
@@ -90,7 +99,7 @@ export const GAME_DEVELOPMENT_DATA = [
     link: "https://danielweimer.itch.io/city-destroyer-prototype",
   },
   {
-    gameId: "011",
+    gameId: "012",
     type: "study",
     featured: true,
     title: "Where Are We... Chapter 0",
@@ -99,7 +108,7 @@ export const GAME_DEVELOPMENT_DATA = [
     link: "https://danielweimer.itch.io/where-are-we-chapter-0",
   },
   {
-    gameId: "012",
+    gameId: "013",
     type: "prototype",
     featured: true,
     title: "Dino RPG Test",
@@ -108,7 +117,7 @@ export const GAME_DEVELOPMENT_DATA = [
     link: "https://danielweimer.itch.io/dino-test",
   },
   {
-    gameId: "013",
+    gameId: "014",
     type: "study",
     featured: false,
     title: "Action RPG Demo",
@@ -117,7 +126,7 @@ export const GAME_DEVELOPMENT_DATA = [
     link: "https://danielweimer.itch.io/iga2-arpg-demo",
   },
   {
-    gameId: "014",
+    gameId: "015",
     type: "prototype",
     featured: true,
     title: "Asteroid Engine",
@@ -126,7 +135,7 @@ export const GAME_DEVELOPMENT_DATA = [
     link: "https://danielweimer.itch.io/asteroid-engine",
   },
   {
-    gameId: "015",
+    gameId: "016",
     type: "card",
     featured: true,
     title: "Scoundrel",

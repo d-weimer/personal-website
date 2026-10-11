@@ -56,7 +56,11 @@ function SEProjectPanel({ project, onClose }) {
                 <img
                   src={currentMedia.path}
                   alt={currentMedia.caption || project.title}
-                  className="software-panel__slide-image"
+                  className={`software-panel__slide-image ${
+                    currentMedia.isMobile
+                      ? "software-panel__slide-image--mobile"
+                      : ""
+                  }`}
                 />
 
                 {mediaList.length > 1 && (
