@@ -2,9 +2,9 @@
   display: flex;
   max-width: 432px;
   min-height: 192px;
-  border: 1px solid #141414;
+  border: 1px solid rgba(0.2, 0.2, 0.2, 0.2);
   font-family: "Inter", serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
   background-color: #ffffff;
@@ -48,7 +48,7 @@
 
 .software-card__title {
   margin: 0 0 8px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -69,5 +69,6 @@
 }
 
 .software-card__link:hover {
-  color: #555555;
+  color: #141414;
+  opacity: 0.7;
 }

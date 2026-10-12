@@ -2,7 +2,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "001",
     title: "Triple Peaks Library",
-    description: "Triple Peaks Library website",
+    description:
+      "A responsive website showcasing library catalogs, events, and services.",
     thumbnail: "/projects/logos/triple-peaks-library-logo.png",
     link: "/software-development/triple-peaks-library/index.html",
     linkText: "View Live Project",
@@ -32,7 +33,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "002",
     title: "Triple Espresso",
-    description: "Triple Espresso Coffee Shop website",
+    description:
+      "A modern coffee shop landing page highlighting menu offerings and brand details.",
     thumbnail: "/projects/logos/triple-peaks-cafe-logo.png",
     link: "/software-development/triple-espresso-coffeeshop/index.html",
     linkText: "View Live Project",
@@ -62,7 +64,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "003",
     title: "Spots",
-    description: "Spots Social Media app",
+    description:
+      "An interactive photo-sharing social platform featuring profile management and post likes.",
     thumbnail: "/projects/logos/spots-logo.png",
     link: "/software-development/spots/index.html",
     linkText: "View Live Project",
@@ -92,7 +95,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "004",
     title: "The Simple To-Do App",
-    description: "Simple To-Do app",
+    description:
+      "A lightweight task management app for quick list creation and item tracking.",
     thumbnail: "/projects/logos/todo-app-logo.png",
     link: "/software-development/todo-app/index.html",
     linkText: "View Live Project",
@@ -117,7 +121,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "005",
     title: "WTWR",
-    description: "WTWR (What To Wear?) Weather full-stack app",
+    description:
+      "A full-stack MERN app providing weather-based clothing recommendations.",
     thumbnail: "/projects/logos/wtwr-logo.png",
     link: "/software-development/wtwr/",
     linkText: "View Live Project",
@@ -147,7 +152,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "006",
     title: "News Explorer",
-    description: "News Explorer full-stack app",
+    description:
+      "A full-stack MERN app for searching worldwide news and saving favorite articles.",
     thumbnail: "/projects/logos/news-explorer-logo.png",
     link: "/software-development/news-explorer/",
     linkText: "View Live Project",
@@ -177,7 +183,8 @@ export const SOFTWARE_PROJECT_DATA = [
   {
     projectId: "007",
     title: "The Nugget App",
-    description: "Hackathon: The Nugget App",
+    description:
+      "A hackathon app helping families discover child-friendly dining locations.",
     thumbnail: "/projects/logos/the-nugget-app-logo.png",
     link: "https://www.linkedin.com/in/daniel-weimer/overlay/Position/3007284270/treasury/?profileId=ACoAAAyP3pgBiPoYh2P53hY6ITRaVku-ijg3PWw",
     linkText: "View Certificate",

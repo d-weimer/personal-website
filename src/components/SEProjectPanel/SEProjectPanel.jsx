@@ -67,7 +67,7 @@ function SEProjectPanel({ project, onClose }) {
                   <>
                     <button
                       type="button"
-                      className="software-panel__nav-btn software-panel__nav-btn--prev"
+                      className="software-panel__nav-button software-panel__nav-button--prev"
                       onClick={handlePrev}
                     >
                       &#10094;
@@ -75,7 +75,7 @@ function SEProjectPanel({ project, onClose }) {
 
                     <button
                       type="button"
-                      className="software-panel__nav-btn software-panel__nav-btn--next"
+                      className="software-panel__nav-button software-panel__nav-button--next"
                       onClick={handleNext}
                     >
                       &#10095;

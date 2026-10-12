@@ -14,8 +14,8 @@ function GameNavigation({ selectedType, onSelectType }) {
       {categories.map((cat) => (
         <button
           key={cat.id}
-          className={`game-navigation__btn ${
-            selectedType === cat.id ? "game-navigation__btn--active" : ""
+          className={`game-navigation__button ${
+            selectedType === cat.id ? "game-navigation__button--active" : ""
           }`}
           onClick={() => onSelectType(cat.id)}
         >
