@@ -8,13 +8,13 @@ A responsive single-page web application showcasing my background, interactive w
 - **Persistent Sidebar Navigation & State Preservation**: Dynamic routing powered by React Router's `NavLink`. The `Navigation` component tracks route context via `useRef`, maintaining the active tab state and preserving the user's last-selected timeline year when switching between tabs.
 - **Magnifying Lens Timeline Architecture**: Vertical timeline featuring a dual-layer JS/CSS clipping architecture (`clip-path: inset(...)`). As the active selection box slides smoothly over year items, text inside the box dynamically boldens like a magnifying lens.
 - **Slot Machine Work History Scrolling**: Smooth, vertical reel/slot-machine scrolling transition in the `WorkHistory` container whenever a new year is selected, sliding past content out while bringing the selected year's milestones seamlessly into view.
-- **Work History & Default Routing**: Career milestones default to the current year (`/work-history/2026`) via automatic route redirection (``), rendering detailed event cards, thumbnail previews, external links, and badge categories.
+- **Work History & Default Routing**: Career milestones default to the current year (`/work-history/2026`) via automatic route redirection, rendering detailed event cards, thumbnail previews, external links, and badge categories.
 - **Categorized Color-Coding**: Visual badges identifying different event types (e.g., study, work, hobbies).
 - **Interactive Software Showcase:** Interactive grid of software projects featuring direct live demo links, pop-up slide panels with custom image carousels, and hosted MERN applications.
 - **MERN Subpath Hosting & API Proxy Architecture:** Production hosting of full-stack applications (such as News Explorer) under subpaths (`/software-development/news-explorer/`), backed by dedicated Express APIs, custom backend news proxy endpoints routing to NewsAPI, and PM2 process management.
-- **Game Development Gallery & Carousel**: Filterable game showcase categorized by project type (Featured, Prototypes, Studies, Card Games, Professional Work) featuring numerical `gameId` sorting and interactive horizontal carousel controls with dynamic scroll-boundary detection.
+- **Game Development Gallery & Carousel**: Filterable game showcase categorized by project type (Featured, Prototypes, Studies, Card Games, Professional Work) featuring numerical `gameId` sorting, filter-triggered automatic scroll-to-start behavior, and interactive horizontal carousel controls with dynamic scroll-boundary detection.
 - **Smart Card Interactivity**: Cards with slideshow media open detailed image viewers on click, while media-less projects remain clean and non-interactive with direct links.
-- **Clean Responsive Layout**: Dual-panel design separating static navigation from dynamic content views.
+- **Clean Responsive Layout**: Dual-panel design separating static navigation from dynamic content views, protected against flexbox container width expansions using explicit `min-width: 0` constraints.
 
 ## Component Structure
 
@@ -25,7 +25,7 @@ A responsive single-page web application showcasing my background, interactive w
 - **`SEProjects`**: Interactive project gallery rendering software development project cards.
 - **`SEProjectCard`**: Individual project card with thumbnail preview, title, description, live links, and conditional modal triggers based on media availability.
 - **`SEProjectPanel`**: Detailed overlay modal featuring an interactive image slideshow, counter, backdrop dismissal, and embedded dots overlay navigation.
-- **`GameDev`**: Main container for the game development section handling tab filtering, item sorting, and horizontal track scrolling.
+- **`GameDev`**: Main container for the game development section handling tab filtering, item sorting, filter-change scroll resets, and horizontal track scrolling.
 - **`GameNavigation`**: Filter bar providing category navigation across game project types.
 - **`GameCard`**: Uniformly-sized card component rendering game thumbnails, titles, multi-line truncated descriptions, and direct external project links.
 
