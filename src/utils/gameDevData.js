@@ -4,7 +4,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "study",
     featured: false,
     title: "Tramponline Trample",
-    description: "",
+    description:
+      "A bounce-focused physics final project exploring vertical momentum and timing mechanics.",
     thumbnail: "/games/thumbnails/trampoline-trample.png",
     link: "https://danielweimer.itch.io/trampoline-trample",
   },
@@ -13,7 +14,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "study",
     featured: false,
     title: "Virtual Pet V1",
-    description: "",
+    description:
+      "An early simulation study tracking basic pet stats, feeding, and interaction states.",
     thumbnail: "/games/thumbnails/virtual-pet-v1.png",
     link: "",
   },
@@ -22,7 +24,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "card",
     featured: true,
     title: "Savage Wars",
-    description: "",
+    description:
+      "A tabletop strategic card game featuring custom deck-building and tactical card placement and combat.",
     thumbnail: "/games/thumbnails/savage-wars.png",
     link: "https://dweimer19.wixsite.com/danielweimer/single-post/2014/09/15/savage-wars-and-version-11",
   },
@@ -31,7 +34,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "study",
     featured: false,
     title: "Virtual Pet V2",
-    description: "",
+    description:
+      "An iterated virtual pet simulation with expanded care mechanics, new pets, and UI feedback.",
     thumbnail: "/games/thumbnails/virtual-pet-v2.png",
     link: "",
   },
@@ -40,7 +44,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "card",
     featured: false,
     title: "Raido: Road to Ragnarök",
-    description: "",
+    description:
+      "A Norse-themed collectible card game blending turn-based tactics with Triple Triad-style spatial capture mechanics on a triangular hex grid.",
     thumbnail: "/games/thumbnails/raido.png",
     link: "https://danielweimer.itch.io/raido-alpha-build",
   },
@@ -49,7 +54,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "prototype",
     featured: false,
     title: "Drop",
-    description: "",
+    description:
+      "A fast-paced arcade prototype testing vertical descent and obstacle avoidance.",
     thumbnail: "/games/thumbnails/drop.png",
     link: "https://danielweimer.itch.io/drop-2018-alpha",
   },
@@ -58,7 +64,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "prototype",
     featured: false,
     title: "Real-Time Strategy",
-    description: "",
+    description:
+      "A top-down RTS prototype experimenting with unit selection, grouping, and movement.",
     thumbnail: "/thumbnails/rts.png",
     link: "https://danielweimer.itch.io/rts-prototype",
   },
@@ -67,7 +74,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "work",
     featured: false,
     title: "Lady Blur: Mission to Mars",
-    description: "",
+    description:
+      "A commercial mobile arcade release featuring classic run-and-gun action.",
     thumbnail: "/games/thumbnails/mission-to-mars.png",
     link: "https://apkpure.com/cn/lady-blur-mission-to-mars/com.sean.ladyblur",
   },
@@ -76,7 +84,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "work",
     featured: false,
     title: "Lady Blur: Defend the Gates",
-    description: "",
+    description:
+      "A mobile tower-defense title focused on wave management and strategic defense placements.",
     thumbnail: "/games/thumbnails/defend-the-gates.png",
     link: "https://gamejolt.com/games/lady_blur/798592",
   },
@@ -85,7 +94,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "work",
     featured: false,
     title: "ChainArena",
-    description: "",
+    description:
+      "An idle RPG mobile adventure set in the fantasy world of Basel where heroes unite against the Dragon Tribe through AFK combat and dungeons.",
     thumbnail: "/games/thumbnails/chainarena.png",
     link: "https://chainarena.en.softonic.com/android",
   },
@@ -94,7 +104,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "prototype",
     featured: true,
     title: "City Destroyer",
-    description: "",
+    description:
+      "Practicing procedurally generated objects in a Kaiju city destruction game with an incomplete gameplay loop.",
     thumbnail: "/games/thumbnails/city-destroyer.png",
     link: "https://danielweimer.itch.io/city-destroyer-prototype",
   },
@@ -103,7 +114,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "study",
     featured: true,
     title: "Where Are We... Chapter 0",
-    description: "",
+    description:
+      "An Indie Game Academy Level 1 visual novel following an astronaut's final hours, mysterious companion visits, and reflections on the past while wishing for rescue.",
     thumbnail: "/games/thumbnails/where-are-we.png",
     link: "https://danielweimer.itch.io/where-are-we-chapter-0",
   },
@@ -112,7 +124,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "prototype",
     featured: true,
     title: "Dino RPG Test",
-    description: "Password: rawr",
+    description:
+      "Password: rawr. A turn-based RPG combat system test featuring custom creature stats.",
     thumbnail: "/games/thumbnails/dino-test.png",
     link: "https://danielweimer.itch.io/dino-test",
   },
@@ -121,7 +134,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "study",
     featured: false,
     title: "Action RPG Demo",
-    description: "",
+    description:
+      "An Indie Game Academy 2 ARPG project featuring simplified quests, spells, monster combat, and town level design.",
     thumbnail: "/thumbnails/arpg.png",
     link: "https://danielweimer.itch.io/iga2-arpg-demo",
   },
@@ -130,7 +144,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "prototype",
     featured: true,
     title: "Asteroid Engine",
-    description: "",
+    description:
+      "A base project for a top-down open-space shooter featuring traditional Asteroids arcade gameplay, power-ups, and bombs.",
     thumbnail: "/games/thumbnails/asteroid-engine.png",
     link: "https://danielweimer.itch.io/asteroid-engine",
   },
@@ -139,7 +154,8 @@ export const GAME_DEVELOPMENT_DATA = [
     type: "card",
     featured: true,
     title: "Scoundrel",
-    description: "",
+    description:
+      "A web-based implementation of the tactical solo card game Scoundrel, featuring room management, dynamic shield combat, animated HP tracking, and strict card constraints.",
     thumbnail: "/games/thumbnails/scoundrel.png",
     link: "https://d-weimer.github.io/scoundrel-solo-card-game/",
   },

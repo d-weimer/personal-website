@@ -48,7 +48,8 @@
   font-weight: bold;
   background-color: #e8e8e8;
   color: #141414;
-  border: none;
+  border: 1px solid rgba(0.2, 0.2, 0.2, 0.2);
+  border-radius: 50px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -56,7 +57,12 @@
   transition:
     opacity 0.2s ease,
     background-color 0.2s ease,
-    color 0.2s ease;
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.game-dev__arrow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .game-dev__arrow:disabled {
