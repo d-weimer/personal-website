@@ -3,18 +3,15 @@
   gap: 12px;
   margin-bottom: 24px;
   flex-wrap: wrap;
-  font-family: "Inter", serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 32px;
 }
 
 .game-navigation__button {
   background: transparent;
-  border: 1px solid #141414;
+  border: 1px solid rgba(0.2, 0.2, 0.2, 0.2);
+  border-radius: 4px;
   padding: 8px 16px;
-  font-family: inherit;
-  font-size: 14px;
+  font-family: "Inter", serif;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   transition:
@@ -23,7 +20,7 @@
 }
 
 .game-navigation__button:hover {
-  background-color: #f0f0f0;
+  background-color: #e8e8e8;
 }
 
 .game-navigation__button--active {
@@ -32,5 +29,5 @@
 }
 
 .game-navigation__button--active:hover {
-  background-color: #333333;
+  background-color: #141414;
 }
