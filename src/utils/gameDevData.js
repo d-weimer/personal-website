@@ -14,7 +14,7 @@ export const GAME_DEVELOPMENT_DATA = [
     featured: false,
     title: "Virtual Pet V1",
     description: "",
-    thumbnail: "/thumbnails/virtual-pet-v1.png",
+    thumbnail: "/games/thumbnails/virtual-pet-v1.png",
     link: "",
   },
   {
@@ -32,7 +32,7 @@ export const GAME_DEVELOPMENT_DATA = [
     featured: false,
     title: "Virtual Pet V2",
     description: "",
-    thumbnail: "/thumbnails/virtual-pet-v2.png",
+    thumbnail: "/games/thumbnails/virtual-pet-v2.png",
     link: "",
   },
   {
@@ -68,7 +68,7 @@ export const GAME_DEVELOPMENT_DATA = [
     featured: false,
     title: "Lady Blur: Mission to Mars",
     description: "",
-    thumbnail: "/thumbnails/mission-to-mars.png",
+    thumbnail: "/games/thumbnails/mission-to-mars.png",
     link: "https://apkpure.com/cn/lady-blur-mission-to-mars/com.sean.ladyblur",
   },
   {
@@ -77,7 +77,7 @@ export const GAME_DEVELOPMENT_DATA = [
     featured: false,
     title: "Lady Blur: Defend the Gates",
     description: "",
-    thumbnail: "/thumbnails/defend-the-gates.png",
+    thumbnail: "/games/thumbnails/defend-the-gates.png",
     link: "https://gamejolt.com/games/lady_blur/798592",
   },
   {
@@ -86,7 +86,7 @@ export const GAME_DEVELOPMENT_DATA = [
     featured: false,
     title: "ChainArena",
     description: "",
-    thumbnail: "/thumbnails/chainarena.png",
+    thumbnail: "/games/thumbnails/chainarena.png",
     link: "https://chainarena.en.softonic.com/android",
   },
   {

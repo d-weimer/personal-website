@@ -22,6 +22,12 @@ function GameDev() {
     return game.type === filter;
   });
 
+  useEffect(() => {
+    if (trackRef.current) {
+      trackRef.current.scrollLeft = 0;
+    }
+  }, [filter]);
+
   const checkScroll = () => {
     if (!trackRef.current) return;
     const { scrollLeft, scrollWidth, clientWidth } = trackRef.current;
