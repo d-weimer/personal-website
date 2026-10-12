@@ -203,9 +203,9 @@ export const WORK_HISTORY_DATA = [
         type: "work",
         role: "Project Manager, HVN Entertainment",
         description: "Awarded Daejeon Media Center Grant",
-        project: "Lady Blur VR: Frontiers (SideQuest)",
-        thumbnail: "/thumbnails/hvn-entertainment.png",
-        link: "",
+        project: "Lady Blur: Frontlines VR (SideQuest)",
+        thumbnail: "/thumbnails/lbvr-demo.png",
+        link: "https://sidequestvr.com/app/11385/lady-blur-vr-frontlines-demo",
       },
       {
         type: "work",
